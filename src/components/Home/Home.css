@@ -1,0 +1,55 @@
+    .titre{
+      font-family: 'Montserrat', sans-serif;
+      text-align: left;
+      margin-bottom: 40px;
+    }
+    p{
+      font-family: 'Playfair Display', serif;
+      text-align: left;
+      width: 70%;
+    }
+    .Text1{
+     width: 40%;
+     padding: 20px;
+     margin-left:140PX;
+     margin-top: 40px;
+
+
+    }
+    #img2{ 
+     width: 50%;
+    }
+
+
+#but1 {
+  text-align: left;
+   -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   border-radius: 0;
+   color: #000000;
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: 600;
+   padding: 5px;
+   margin-top: 40px;
+   background-color: #FFFFFF;
+   border: solid #000000 2px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+#but1:hover {
+   border: solid black 2px;
+   background: #A9E4C5;
+   background-image: -webkit-linear-gradient(top, #A9E4C5, #539578);
+   background-image: -moz-linear-gradient(top, #A9E4C5, #539578);
+   background-image: -ms-linear-gradient(top, #A9E4C5, #539578);
+   background-image: -o-linear-gradient(top, #A9E4C5, #539578);
+   background-image: -webkit-gradient(to bottom, #A9E4C5, #539578);
+   -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   border-radius: 0;
+   text-decoration: none;
+}
