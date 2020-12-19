@@ -1,29 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
+import {Link } from 'react-router-dom';
 import Image from "../../assets/logonavbargreen.png";
 import "./Header.css";
 
 const Header = () => {
  return(
-<div>
+<>
  <nav class="nav1">
-
-
+   
     <img class="img-logo" src={Image} alt="Grean-IT LOGO"/>
-    <div class="nav2">
+    <div className="nav2">
 
-
-      <a className="text-green " href="#">Home</a>
-      <a className="text-green " href="#">About</a>
-      <a className="text-green " href="#">Offers</a>
-      <a className="text-green " href="#"> Log in</a>
-      <select class="select1" name="Languages">
+      <Link className="text-green navlink" to="/home">Home</Link>
+      <Link className="text-green navlink" to="/about">About</Link>
+      <Link className="text-green navlink" to="/service">Services</Link>
+      <a className="text-green navlink" href="#"> Log in</a>
+      <select className="select1 navlink" name="Languages">
         <option value="English">English</option>
         <option value="Fraçais">Français</option>
       </select>
 
     </div>
   </nav>
-</div>
+</>
  );
 };
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Image2 from "../../assets/smartfarm.png";
+import Image from "../../assets/smartfarm.png";
 import Header from "../Header/Header.jsx";
 import "./Home.css";
 
@@ -8,7 +8,7 @@ const Home = () => {
   <>
   <Header/>
  <div>
-  <div className="d-flex">
+  <div className="d-flex _contenu">
   <div class="Text1">
     <h1 className="titre" >Contrôle your farm <br/> from everywhere <br/> in everytime</h1>
     <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -19,7 +19,7 @@ const Home = () => {
 
 
 
-  <img id="img2" src={Image2} alt="smartfarm-image"/>
+  <img id="img2" src={Image} alt="smartfarm-image"/>
 </div>
  </div>
  </>

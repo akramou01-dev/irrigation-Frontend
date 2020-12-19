@@ -33,6 +33,9 @@ button {
 .h-full {
   height: 100%;
 }
+.w-full{
+  width: 100%;
+}
 .text-white {
   color: white !important;
 }
@@ -47,6 +50,9 @@ button {
 }
 .text-green {
   color: var(--green_dark) !important;
+}
+.mega_text{
+  font-size: 50px;
 }
 .header {
   font-size: 40px !important;
@@ -101,6 +107,9 @@ button {
 }
 .text-active {
   color: var(--green_light) !important;
+}
+.text-center{
+  text-align: center;
 }
 .pointer {
   cursor: pointer;

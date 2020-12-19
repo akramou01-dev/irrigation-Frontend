@@ -16,7 +16,8 @@ import {
 
 import Header from "./components/Header/Header.jsx";
 import Home from "./components/Home/Home.jsx";
-
+import Service from "./components/Service/Service.jsx";
+import About from "./components/Aboutus/About.jsx"
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
         <Route path='/header' component={Header} />
         <Route path='/home' component={Home} />
 
+        <Route path='/service' component={Service} />
+        <Route path='/about' component={About} />
        </Switch>
      </BrowserRouter>
   
