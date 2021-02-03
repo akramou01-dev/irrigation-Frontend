@@ -1,0 +1,27 @@
+.Logo{
+    /* background-color: red; */
+    padding: 8px;
+    height: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.Logo img { 
+    height: 100%;
+}
+
+
+@media(max-width : 600px){
+    .Logo img {
+        display: none;
+    }
+
+}
+
+@media(max-width : 800px){
+    .Logo img{
+        height: 80%;
+        padding-bottom: 0;
+        padding-top: auto;
+    }
+}
