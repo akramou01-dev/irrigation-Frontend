@@ -6,7 +6,7 @@ import Select from "../../UI/Select/Select";
 const navigationItem = (props) => (
   <Aux>
     <ul className={classes.NavigationItems}>
-      <NavigationItem link="/home">Home</NavigationItem>
+      <NavigationItem exact link="/">Home</NavigationItem>
       <NavigationItem link="/about">About</NavigationItem>
       <NavigationItem exact link="/services">
         Services
