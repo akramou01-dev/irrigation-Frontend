@@ -7,8 +7,8 @@ class Layout extends Component {
     return (
       <Aux>
         <Toolbar />
-        <main className={classes.Content}>{this.props.children}</main>
-        <footer>Footer</footer>
+        <main className={classes.Content}> {this.props.children} </main>
+        {/* <footer>Footer</footer> */}
       </Aux>
     );
   }

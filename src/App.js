@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import Layout from './Hoc/Layout/Layout'
+import Layout from "./Hoc/Layout/Layout";
+import Home from "./Containers/Home/Home";
 
 class App extends Component {
   render() {
     return (
       <Layout>
-        <div>Main</div>
+        <Home />
       </Layout>
     );
   }

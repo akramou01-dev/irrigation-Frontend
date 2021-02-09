@@ -1,0 +1,17 @@
+.Home_Button{
+    background-color: transparent;
+    border: 0.1px solid #000 ;
+    outline: none;
+    cursor: pointer;
+    font: arial;
+    padding-left: .3rem;
+    padding-right: .4rem;
+    margin: 10px;
+    font-weight: bold;
+}
+.Home_Button:focus {
+    outline: none;
+}
+.Home_Button:hover {
+    background-color:#dbd0c0 ;
+}
