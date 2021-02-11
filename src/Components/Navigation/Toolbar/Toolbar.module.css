@@ -7,7 +7,6 @@
     position: fixed;
     top: 0;
     left: 0;
-    /* background-color: #703B09; */
     display: flex ;
     justify-content: space-between;
     align-items: center;
@@ -16,10 +15,10 @@
     z-index: 90;
 }
 
-
 .Logo{
     height: 150px;
     margin-left: 20px;
+    top: 0;
 }
 .Icon{
     margin-left: 0;
@@ -30,6 +29,7 @@
 
 .Icon img {
     height: 90px;
+    float: right;
 }
 
 @media (max-width : 600px){

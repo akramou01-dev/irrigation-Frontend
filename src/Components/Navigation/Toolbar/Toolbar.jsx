@@ -15,10 +15,10 @@ const Toolbar = (props) => {
         <nav className={classes.DesktopOnly}>
           <NavigationItems />
         </nav>
-      </header>
       <div className={classes.Icon}>
         <img src={Icon} alt="Icon" />
       </div>
+      </header>
     </Aux>
   );
 };
