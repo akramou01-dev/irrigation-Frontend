@@ -3,7 +3,43 @@ import React, { Component } from "react";
 import Aux from "../../Hoc/Auxilary/Auxilary";
 import classes from "./Services.module.css";
 import Caroussel from "../../assets/Capture.PNG";
+import Image from "../../assets/Home_Photo.png";
+import Offres from "../../Components/Offres/Offres";
 class Services extends Component {
+  state = {
+    offres: [
+      {
+        titre: "offre 1",
+        description: "c'est le premier offre pour les services",
+        image: Image,
+      },
+      {
+        titre: "offre 2",
+        description: "c'est le dexieme offre pour les services",
+        image: Image,
+      },
+      {
+        titre: "offre 3",
+        description: "c'est le 3eme offre pour les services",
+        image: Image,
+      },
+      {
+        titre: "offre 3",
+        description: "c'est le 3eme offre pour les services",
+        image: Image,
+      },
+      {
+        titre: "offre 3",
+        description: "c'est le 3eme offre pour les services",
+        image: Image,
+      },
+      {
+        titre: "offre 3",
+        description: "c'est le 3eme offre pour les services",
+        image: Image,
+      },
+    ],
+  };
   render() {
     const service = "Service irrigation";
     return (
@@ -26,12 +62,9 @@ class Services extends Component {
             </div>
           </div>
 
+          <h1>Choisir une offre</h1>
           <div className={classes.Bottom_Div}>
-            bottom part
-            <div>
-              <h1>Choisir une offre</h1>
-              offers part
-            </div>
+            <Offres offres={this.state.offres} />
           </div>
         </div>
       </Aux>
