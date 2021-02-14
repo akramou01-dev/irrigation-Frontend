@@ -1,0 +1,28 @@
+
+.Carousel {
+  height: 350px;
+  width: 200px;
+  padding-top: 80px;
+  text-align: center;
+  color: #fff;
+  background-color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding : 0 1rem;
+  border: 2px solid #888;
+  
+}
+
+.Carousel img {
+  margin: 60% 0 ;
+  width: 110%;
+  height: auto;
+}
+
+/* @media(max-width : 600px){
+  .Carousel {
+    display: none;
+  }
+} */
+
+

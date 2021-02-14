@@ -1,8 +1,12 @@
 import React, { Component } from "react";
-
+import classes from "./About.module.css";
 class About extends Component {
   render() {
-    return <h1>hey from About</h1>;
+    return (
+      <div className={classes.Container}>
+        hey
+      </div>
+    );
   }
 }
 

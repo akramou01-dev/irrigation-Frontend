@@ -4,6 +4,7 @@ import classes from "./Offres.module.css"
 const offres = (props) => {
   const offres = props.offres.map((offre) => (
     <Offre
+      key = {offre.id}
       titre={offre.titre}
       description={offre.description}
       image={offre.image}
