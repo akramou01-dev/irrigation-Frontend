@@ -1,10 +1,10 @@
 .Article{
-    width: 100%;
+    width: 60%;
     height: 100%;
     display: block;
     text-align: center;
-    margin-top: 50px;
     cursor: pointer;
+    /* margin-top: 5%; */
 }
 
 .Article img{
@@ -18,8 +18,7 @@
 .Article p {
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 20px;
-
+    font-size: 80%;
 }
 .Article:hover{
     box-shadow: 7px 3px 5px -2px #888;

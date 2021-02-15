@@ -1,6 +1,6 @@
 .Offres {
   display: grid;
-  grid-gap: 10% 10%;
+  grid-gap: 5% 10%;
   grid-template-columns: auto auto auto;
   padding: 0 15% 0 20%;
   justify-content: space-between;
