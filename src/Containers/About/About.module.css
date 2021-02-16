@@ -1,6 +1,78 @@
 .Container{
-    width: 200px;
-    height: 500px;
-    left: 0;
-    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.topDiv {
+    display: flex !important;
+}
+.first{
+    width: 250px;
+    margin-left: 15%;
+    margin-top: 35%;
+    font-size: 50px;
+    font-weight: bold !important;
+}
+.description{
+    width: 125%;
+    margin-top: 40px;
+    margin-left: 15%;
+    font-size: 26px !important;
+    font-weight: bold !important;
+}
+.topDivCenter{
+    width: 40%;
+    height: 100%;
+}
+.topDivLeft{
+    width: 45%;
+}
+.topDivRight{
+    width: 30%;
+    padding-left: 7%;
+    margin-top: 10%;
+    padding-right: 32%;
+}
+.img2{
+    height: 700px;
+    margin-left: 3%;
+}
+.img3{
+    height: 160px;
+    margin-bottom: 50px;
+}
+.img4{
+    height: 160px !important;
+    width: 542px;
+}
+.socialDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.more{
+    position: absolute;
+    text-align: right;
+    width: 98%;
+    font-weight: bold;
+}
+.link{
+    font-size: 40px;
+    color: var(--gray);
+    margin-right: 5%;
+}
+.titre{
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 80px;
+}
+.bpx{
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%; 
+}
+.element{
+    font-size: 24px;
+    margin-right: 4%;
 }
